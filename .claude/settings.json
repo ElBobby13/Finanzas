@@ -10,5 +10,10 @@
   "enabledPlugins": {
     "financial-analysis@claude-for-financial-services": true,
     "equity-research@claude-for-financial-services": true
+  },
+  "permissions": {
+    "deny": [
+      "mcp__Firecrawl"
+    ]
   }
 }
